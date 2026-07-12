@@ -168,11 +168,75 @@ body {
     padding-left: 38px;
     padding-top: 10px;
 }
+
 .txt-cadastrase-content-page a {
     color: #222222;
     text-decoration: none;
 }
-.page-footer{
+
+.page-footer {
     background-color: #F7FAFF;
     height: 150px;
+
+}
+
+.menu-footer {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.bloco1-page-footer {
+    display: block;
+    width: fit-content;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.bloco2-page-footer {
+    display: block;
+    width: fit-content;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.bloco3-page-footer {
+    display: block;
+    width: fit-content;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.bloco4-page-footer {
+    display: block;
+    width: fit-content;
+    height: 150px;
+    padding-top: 10px;
+}
+
+.title-page-footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #222222;
+}
+
+.bloco1-page-footer a,
+.bloco2-page-footer a,
+.bloco3-page-footer a,
+.bloco4-page-footer a {
+    text-decoration: none;
+    color: #222222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+
+.page-footer p {
+    padding-top: 10px;
+}
+
+.logo-page-footer {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
 }

@@ -17,7 +17,7 @@ body {
 
 .page-header {
     background-color: #F7FAFF;
-    height: 70px;
+    height: 60px;
     align-items: center;
 }
 
@@ -36,7 +36,7 @@ body {
 
 .menu-header {
     display: flex;
-    height: 70px;
+    height: 65px;
     align-items: center;
 }
 
@@ -160,6 +160,21 @@ body {
     cursor: pointer;
 }
 
+.btn-bloco1-content-page {
+    width: 280px;
+    margin: 0 auto;
+    height: 40px;
+    background-color: #DE7820;
+    border: none;
+    border-radius: 5px;
+    color: #F7FAFF;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 40px;
+    cursor: pointer;
+    display: none;
+}
+
 .txt-cadastrase-content-page {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
@@ -174,10 +189,500 @@ body {
     text-decoration: none;
 }
 
+@media (max-width: 900px) {
+    .content-page {
+        max-height: 400px;
+        max-width: 400px;
+    }
+
+    .logo-content-page {
+        width: 120px;
+        height: 120px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 18px;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 12px;
+    }
+
+    .title-login-content-page {
+        font-size: 18px;
+    }
+
+    .input-email-content-page {
+        width: 300px;
+        height: 30px;
+    }
+
+    .input-senha-content-page {
+        width: 300px;
+        height: 30px;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        font-size: 12px;
+    }
+
+    .txt-cadastrase-content-page {
+        font-size: 12px;
+    }
+
+    .btn-login-content-page {
+        width: 240px;
+        height: 35px;
+    }
+}
+
+@media (max-width: 840px) {
+    .content-page {
+        height: 400px;
+        width: 400px;
+        min-width: 600px;
+        min-height: 500px;
+    }
+
+    .logo-content-page {
+        width: 100px;
+        height: 100px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 14px;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 10px;
+        max-width: 220px;
+    }
+
+    .title-login-content-page {
+        font-size: 14px;
+    }
+
+    .input-email-content-page {
+        width: 200px;
+        height: 30px;
+        margin-top: 30px;
+    }
+
+    .input-senha-content-page {
+        width: 200px;
+        height: 30px;
+        margin-top: 10px;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        font-size: 10px;
+    }
+
+    .txt-cadastrase-content-page {
+        font-size: 10px;
+        padding-left: 15px;
+    }
+
+    .btn-login-content-page {
+        width: 180px;
+        height: 30px;
+        margin-top: 20px;
+    }
+
+    .bloco1-content-page {
+        height: auto;
+        width: fit-content;
+        min-width: 300px;
+    }
+
+    .bloco2-content-page {
+        height: auto;
+        width: fit-content;
+        min-width: 300px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 650px) {
+    .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 500px;
+        min-height: 400px;
+    }
+
+    .logo-content-page {
+        width: 80px;
+        height: 80px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 12px;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 8px;
+        max-width: 190px;
+    }
+
+    .title-login-content-page {
+        font-size: 12px;
+    }
+
+    .input-email-content-page {
+        width: 170px;
+        height: 25px;
+    }
+
+    .input-senha-content-page {
+        width: 170px;
+        height: 25px;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        font-size: 8px;
+    }
+
+    .txt-cadastrase-content-page {
+        font-size: 8px;
+        padding-left: 15px;
+    }
+
+    .btn-login-content-page {
+        width: 150px;
+        height: 25px;
+        font-size: 12px;
+    }
+
+    .bloco1-content-page {
+        height: auto;
+        width: fit-content;
+        min-width: 250px;
+    }
+
+    .bloco2-content-page {
+        height: auto;
+        width: fit-content;
+        min-width: 250px;
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 510px) {
+    .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 300px;
+        min-height: 400px;
+        background-color: transparent;
+    }
+
+    .logo-content-page {
+        width: 80px;
+        height: 80px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 18px;
+        color: #F7FAFF;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 14px;
+        max-width: 300px;
+        color: #F7FAFF;
+        ;
+    }
+
+    .title-login-content-page {
+        display: none;
+    }
+
+    .input-email-content-page {
+        display: none;
+    }
+
+    .input-senha-content-page {
+        display: none;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        display: none;
+    }
+
+    .txt-cadastrase-content-page {
+        display: none;
+    }
+
+    .btn-login-content-page {
+        display: none;
+    }
+
+    .bloco1-content-page {
+        display: block;
+        height: auto;
+        width: 90%;
+        justify-items: center;
+    }
+
+    .bloco2-content-page {
+        display: none;
+    }
+
+    .btn-bloco1-content-page {
+        width: 280px;
+        margin: 0 auto;
+        height: 40px;
+        background-color: #DE7820;
+        border: none;
+        border-radius: 5px;
+        color: #F7FAFF;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 320px) {
+    .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 200px;
+        min-height: 400px;
+        background-color: transparent;
+    }
+
+    .logo-content-page {
+        width: 80px;
+        height: 80px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 15px;
+        color: #F7FAFF;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 12px;
+        max-width: 240px;
+        color: #F7FAFF;
+        ;
+    }
+
+    .title-login-content-page {
+        display: none;
+    }
+
+    .input-email-content-page {
+        display: none;
+    }
+
+    .input-senha-content-page {
+        display: none;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        display: none;
+    }
+
+    .txt-cadastrase-content-page {
+        display: none;
+    }
+
+    .btn-login-content-page {
+        display: none;
+    }
+
+    .bloco1-content-page {
+        display: block;
+        height: auto;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .bloco2-content-page {
+        display: none;
+    }
+
+    .btn-bloco1-content-page {
+        width: 240px;
+        margin: 0 auto;
+        height: 40px;
+        background-color: #DE7820;
+        border: none;
+        border-radius: 5px;
+        color: #F7FAFF;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 270px) {
+    .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 500px;
+        min-height: 400px;
+        background-color: transparent;
+    }
+
+    .logo-content-page {
+        width: 80px;
+        height: 80px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 13px;
+        color: #F7FAFF;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 10px;
+        max-width: 210px;
+        color: #F7FAFF;
+        ;
+    }
+
+    .title-login-content-page {
+        display: none;
+    }
+
+    .input-email-content-page {
+        display: none;
+    }
+
+    .input-senha-content-page {
+        display: none;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        display: none;
+    }
+
+    .txt-cadastrase-content-page {
+        display: none;
+    }
+
+    .btn-login-content-page {
+        display: none;
+    }
+
+    .bloco1-content-page {
+        display: block;
+        height: auto;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .bloco2-content-page {
+        display: none;
+    }
+
+    .btn-bloco1-content-page {
+        width: 210px;
+        margin: 0 auto;
+        height: 40px;
+        background-color: #DE7820;
+        border: none;
+        border-radius: 5px;
+        color: #F7FAFF;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+@media (max-width: 240px) {
+    .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 500px;
+        min-height: 400px;
+        background-color: transparent;
+    }
+
+    .logo-content-page {
+        width: 80px;
+        height: 80px;
+    }
+
+    .txt-bemVindo-content-page {
+        font-size: 11px;
+        color: #F7FAFF;
+    }
+
+    .txt-introdutivo-content-page {
+        font-size: 10px;
+        max-width: 180px;
+        color: #F7FAFF;
+        ;
+    }
+
+    .title-login-content-page {
+        display: none;
+    }
+
+    .input-email-content-page {
+        display: none;
+    }
+
+    .input-senha-content-page {
+        display: none;
+    }
+
+    .txt-esqueceuSenha-content-page {
+        display: none;
+    }
+
+    .txt-cadastrase-content-page {
+        display: none;
+    }
+
+    .btn-login-content-page {
+        display: none;
+    }
+
+    .bloco1-content-page {
+        display: block;
+        height: auto;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .bloco2-content-page {
+        display: none;
+    }
+
+    .btn-bloco1-content-page {
+        width: 180px;
+        margin: 0 auto;
+        height: 40px;
+        background-color: #DE7820;
+        border: none;
+        border-radius: 5px;
+        color: #F7FAFF;
+        font-size: 15px;
+        font-weight: 600;
+        margin-top: 40px;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
 .page-footer {
     background-color: #F7FAFF;
     height: 150px;
-
 }
 
 .menu-footer {
@@ -239,4 +744,83 @@ body {
     width: 50px;
     height: 50px;
     margin-top: 20px;
+}
+
+@media (max-width: 670px) {
+    .page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer,
+    .bloco2-page-footer,
+    .bloco3-page-footer,
+    .bloco4-page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer a,
+    .bloco2-page-footer a,
+    .bloco3-page-footer a,
+    .bloco4-page-footer a{
+        font-size: 12px;
+    }
+    .bloco1-page-footer p,
+    .bloco2-page-footer p,
+    .bloco3-page-footer p,
+    .bloco4-page-footer p{
+        font-size: 13px;
+        padding-top: 5px;
+    }
+}
+@media (max-width: 450px) {
+    .page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer,
+    .bloco2-page-footer,
+    .bloco3-page-footer,
+    .bloco4-page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer a,
+    .bloco2-page-footer a,
+    .bloco3-page-footer a,
+    .bloco4-page-footer a{
+        font-size: 10px;
+    }
+    .bloco1-page-footer p,
+    .bloco2-page-footer p,
+    .bloco3-page-footer p,
+    .bloco4-page-footer p{
+        font-size: 10px;
+        padding-top: 5px;
+    }
+}
+@media (max-width: 280px) {
+    .page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer,
+    .bloco2-page-footer,
+    .bloco3-page-footer,
+    .bloco4-page-footer {
+        height: 100px;
+    }
+
+    .bloco1-page-footer a,
+    .bloco2-page-footer a,
+    .bloco3-page-footer a,
+    .bloco4-page-footer a{
+        font-size: 6px;
+    }
+    .bloco1-page-footer p,
+    .bloco2-page-footer p,
+    .bloco3-page-footer p,
+    .bloco4-page-footer p{
+        font-size: 8px;
+        padding-top: 5px;
+    }
 }

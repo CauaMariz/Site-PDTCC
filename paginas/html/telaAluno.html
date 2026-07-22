@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modelo</title>
+  <link rel="stylesheet" href="../style/style.css">
+  <style>
+    .content-page {
+      display: flex;
+      justify-content: center;
+    }
+    @media (min-width: 330px) {
+      .campo-buttons-aluno-content button{
+        width: 280px;
+      }
+    }
+    @media (min-width: 510px) {
+      .content-page {
+        height: 300px;
+        width: 300px;
+        min-width: 300px;
+        min-height: 400px;
+        background-color: transparent;
+      }
+    }
+    @media (min-width: 600px) {
+      .content-page svg{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header class="page-header">
+    <nav class="menu-header"></nav>
+  </header>
+
+  <main class="main-content">
+    <button class="settings-main" aria-label="Configurações">
+
+      <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#E1E1E1"
+        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+        class="lucide lucide-settings-icon lucide-settings">
+        <path
+          d="M9.671 4.136a2.34 2.34 0 0 1 4.659 0 2.34 2.34 0 0 0 3.319 1.915 2.34 2.34 0 0 1 2.33 4.033 2.34 2.34 0 0 0 0 3.831 2.34 2.34 0 0 1-2.33 4.033 2.34 2.34 0 0 0-3.319 1.915 2.34 2.34 0 0 1-4.659 0 2.34 2.34 0 0 0-3.32-1.915 2.34 2.34 0 0 1-2.33-4.033 2.34 2.34 0 0 0 0-3.831A2.34 2.34 0 0 1 6.35 6.051a2.34 2.34 0 0 0 3.319-1.915" />
+        <circle cx="12" cy="12" r="3" />
+      </svg>
+
+    </button>
+
+    <section class="content-page">
+
+      <div class="campo-content-aluno">
+        <svg fill="#000000" width="75px" height="75px" viewBox="-3.2 -3.2 38.40 38.40"
+          xmlns="http://www.w3.org/2000/svg">
+          <g id="SVGRepo_bgCarrier" stroke-width="0">
+            <rect x="-3.2" y="-3.2" width="38.40" height="38.40" rx="19.2" fill="#F7FAFF" strokewidth="0"></rect>
+          </g>
+          <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+          <g id="SVGRepo_iconCarrier">
+            <path
+              d="M16 15.503A5.041 5.041 0 1 0 16 5.42a5.041 5.041 0 0 0 0 10.083zm0 2.215c-6.703 0-11 3.699-11 5.5v3.363h22v-3.363c0-2.178-4.068-5.5-11-5.5z">
+            </path>
+          </g>
+        </svg>
+
+        <div class="campos-aluno-content">
+          <div class="campoNomeAluno" id="campoNomeAluno">Nome:</div>
+          <div class="campoCursoAluno" id="campoCursoAluno">Curso:</div>
+          <div class="campoRMAluno" id="campoRMAluno">RM:</div>
+        </div>
+
+        <div class="campo-buttons-aluno-content">
+          <button class="btn-aluno-content-grade-semanal">Ver grade semanal</button>
+          <button class="btn-aluno-content-grade-mensal">Ver grade mensal</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="page-footer">
+    <nav class="menu-footer">
+      <div class="bloco1-page-footer">
+        <p class="title-page-footer">Access Guardian</p>
+        <p class="txt-sobreNos-page-footer"><a href="">Sobre Nós</a></p>
+        <p class="txt-faleConosco-page-footer"><a href="">Fale conosco</a></p>
+      </div>
+      <div class="bloco2-page-footer">
+        <p class="title-page-footer">Ajuda</p>
+        <p class="txt-politica-page-footer"><a href="">Política de Privacidade</a></p>
+        <p class="txt-ajuda-page-footer"><a href="">Precisa de ajuda?</a></p>
+      </div>
+      <div class="bloco3-page-footer">
+        <p class="title-page-footer">Conta</p>
+        <p class="txt-conta-page-footer"><a href="">Minha Conta</a></p>
+        <p class="txt-login-page-footer"><a href="">Login</a></p>
+        <p class="txt-cadastro-page-footer"><a href="">Cadastro</a></p>
+      </div>
+      <div class="bloco4-page-footer">
+        <p class="title-page-footer">Nos siga</p>
+        <p class="txt-instagram-page-footer"><a href="">Instagram</a></p>
+        <p class="txt-facebook-page-footer"><a href="">Facebook</a></p>
+        <p class="txt-youtube-page-footer"><a href="">YouTube</a></p>
+      </div>
+    </nav>
+  </footer>
+
+
+</body>
+
+</html>

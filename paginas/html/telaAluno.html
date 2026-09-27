@@ -36,11 +36,15 @@
 
 <body>
 
+  <!-- Campo que abriga o menu de cima -->
   <header class="page-header">
     <nav class="menu-header"></nav>
   </header>
 
+  <!-- O main da pagina main-content. Abriga todo o conteudo principal incluindo a parte de configuracao -->
   <main class="main-content">
+
+    <!-- Botao de configuracoes da pagina -->
     <button class="settings-main" aria-label="Configurações">
 
       <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="#E1E1E1"
@@ -53,6 +57,8 @@
 
     </button>
 
+
+    <!-- Este campo content-page abriga todo o conteudo principal exceto a parte de configuracao -->
     <section class="content-page">
 
       <div class="campo-content-aluno">
@@ -69,12 +75,14 @@
           </g>
         </svg>
 
+        <!-- Este é o campo que abriga informacoes do aluno, como nome, rm etc.-->
         <div class="campos-aluno-content">
           <div class="campoNomeAluno" id="campoNomeAluno">Nome:</div>
           <div class="campoCursoAluno" id="campoCursoAluno">Curso:</div>
           <div class="campoRMAluno" id="campoRMAluno">RM:</div>
         </div>
 
+        <!-- Este campo contem dois buttons, um para ver a grade semanal, e outro para ver a grade mensal-->
         <div class="campo-buttons-aluno-content">
           <button class="btn-aluno-content-grade-semanal">Ver grade semanal</button>
           <button class="btn-aluno-content-grade-mensal">Ver grade mensal</button>
@@ -82,7 +90,9 @@
       </div>
     </section>
   </main>
+  <!-- Aqui é onde acaba todo o conteudo principal, main-content e content-page -->
 
+  <!-- Este é o rodapé do site, tendo um bloco de separacao para cada parte de informacoes -->
   <footer class="page-footer">
     <nav class="menu-footer">
       <div class="bloco1-page-footer">

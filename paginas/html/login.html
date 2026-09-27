@@ -134,12 +134,17 @@
 
 <body>
 
+    <!-- Campo que abriga o menu de cima -->
     <header class="page-header">
         <nav class="menu-header">
         </nav>
     </header>
 
+
+    <!-- O main da pagina main-content. Abriga todo o conteudo principal incluindo a parte de configuracao -->
     <main class="main-content">
+
+        <!-- Botao de configuracoes da pagina -->
         <button class="settings-main" aria-label="Configurações">
 
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none"
@@ -152,13 +157,18 @@
 
         </button>
 
+
+        <!-- Este campo content-page abriga todo o conteudo principal exceto a parte de configuracao -->
         <section class="content-page">
+
+            <!-- Este é o bloco2 que contem toda a informacao de login do usuario -->
             <div class="bloco2-content-page">
 
                 <img src="../../imagens/logos/logo_fundo_azul.png" class="logo-content-page" alt="Logo">
 
                 <p class="title-login-content-page">Login:</p>
 
+                <!-- Este é o formulario que abriga os inputs e dereciona o usuario para as proximas etapas -->
                 <form action="../php/classes/loginConfig.php" class="form-login-content-page">
                     <input type="email" id="emailUser" class="input-email-content-page"
                         placeholder="Email Institucional:" required>
@@ -176,7 +186,9 @@
 
         </section>
     </main>
+    <!-- Aqui é onde acaba todo o conteudo principal, main-content e content-page -->
 
+    <!-- Este é o rodapé do site, tendo um bloco de separacao para cada parte de informacoes -->
     <footer class="page-footer">
         <nav class="menu-footer">
             <div class="bloco1-page-footer">
